@@ -7,8 +7,8 @@ DHT dht(2, DHT22);
 #define SERVER_IP "192.168.1.41"
 
 #ifndef STASSID
-#define STASSID "Livebox-b102_2.4g"
-#define STAPSK  "azerty58180"
+#define STASSID SSIS
+#define STAPSK  PSK
 #endif
 
 void setup() {
