@@ -7,7 +7,7 @@ DHT dht(2, DHT22);
 #define SERVER_IP "192.168.1.41"
 
 #ifndef STASSID
-#define STASSID SSIS
+#define STASSID SSID
 #define STAPSK  PSK
 #endif
 
